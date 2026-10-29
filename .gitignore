@@ -1,0 +1,44 @@
+# Entornos virtuales
+
+.venv/
+venv/
+env/
+
+# Archivos temporales de Python
+
+**pycache**/
+*.py[cod]
+
+# Archivos temporales de Jupyter
+
+.ipynb_checkpoints/
+
+# Configuración local de editores
+
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Entornos y credenciales locales
+
+.env
+.env.*
+
+# Archivos temporales y logs
+
+*.log
+*.tmp
+
+# Datos procesados y archivos generados
+
+data/processed/
+*.joblib
+
+# Archivos temporales de análisis
+
+*.parquet
