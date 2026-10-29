@@ -33,6 +33,18 @@ hiv-protease-cleavage-classification/
 ```
 
 ## Datos
+## Fuente de los datos
+
+Los datos utilizados en este proyecto corresponden a cuatro conjuntos de secuencias de ocho aminoácidos (*octapeptides*) asociados a sitios de corte y no corte de la proteasa del VIH-1: 746, 1625, Schilling e Impens.
+
+**Repositorio de datos:** [UCI Machine Learning Repository — HIV-1 Protease Cleavage](https://archive.ics.uci.edu/ml/datasets/HIV-1+protease+cleavage)
+
+**Referencias científicas:**
+
+* Rögnvaldsson, T., You, L., & Garwicz, D. (2015). *State of the art prediction of HIV-1 protease cleavage sites*. Bioinformatics, 31(8), 1204–1210. https://doi.org/10.1093/bioinformatics/btu810
+* Manning, T., & Walsh, P. (2016). *The importance of physicochemical characteristics and nonlinear classifiers in determining HIV-1 protease specificity*. Bioengineered, 7(2), 65–78. https://doi.org/10.1080/21655979.2016.1149271
+
+Los archivos originales se almacenan en `data/raw/`. Durante el análisis se mantienen las etiquetas originales y se documentan las decisiones adoptadas para tratar secuencias repetidas y etiquetas contradictorias.
 
 Se integraron cuatro conjuntos de datos identificados como 746, 1625, Schilling e Impens.
 
@@ -109,7 +121,7 @@ Estos resultados corresponden a una única división de entrenamiento y prueba y
 1. Clonar el repositorio:
 
    ```bash
-   git clone URL_DEL_REPOSITORIO
+   git clone (https://github.com/luisina14BIO/hiv-protease-cleavage-classification)
    ```
 
 2. Ingresar en la carpeta del proyecto:
