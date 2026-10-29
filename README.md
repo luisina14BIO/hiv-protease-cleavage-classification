@@ -20,11 +20,10 @@ El análisis integra cuatro conjuntos de datos publicados en la literatura cient
 hiv-protease-cleavage-classification/
 ├── data/
 │   ├── raw/
-│   │   ├── 746Data.txt
-│   │   ├── 1625Data.txt
-│   │   ├── schillingData.txt
-│   │   └── impensData.txt
-│   └── processed/
+│      ├── 746Data.txt
+│      ├── 1625Data.txt
+│      ├── schillingData.txt
+│      └── impensData.txt   
 ├── notebooks/
 │   └── modelado_metricas.ipynb
 ├── README.md
